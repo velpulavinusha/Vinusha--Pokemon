@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListofPokemon</title>
+    <style>
+    .sectable, .row,.col{
+    border: 2px solid;
+    border-collapse: collapse;
+    padding:0px 64px;
+    height:30px;
+    width:95%;
+    margin-top: 20px;
+  }
+  .delete{
+    font-size: 20px;
+    margin-left: 60%;
+  }
+  .edit{
+    font-size: 20px;
+    margin-left: 5%;
+  }
+    </style>
+</head>
+<body>
+    <center>
+    <!--LIST OF POKEMON USERS-->
+    <div class="form-wrapper">
+        <fieldset style="height: 150px; width: 60%;">
+           <strong style="font-size: 20px;"> List Of Pokemon User</strong>
+           <tr>
+               <td>
+                   <button class="delete">Delete All</button></td>
+               </td>
+               <td>
+                   <button class="edit">Edit</button></td>
+              </td>
+           </tr>
+           <!--table start-->
+           <table class="sectable">
+               <tbody>
+               <tr class="row">
+                   <td class="col">Pokemon OwnerName</td>
+                   <td class="col">Pokemon Name</td>
+                   <td class="col">Pokemon Ability</td>
+                   <td class="col">No.of Pokemons</td>
+                   <td class="col">Add Pokemon</td>
+                   <td class="col">Delete All</td>
+                   <td class="col">Edit</td>
+               </tr>
+               <tr class="row">
+                   <td class="col"></td>
+                   <td class="col"></td>
+                   <td class="col"></td>
+                   <td class="col"></td>
+                   <td class="col"><input type="submit" value="+"></td>
+                   <td class="col"></td>
+                   <td class="col"></td>
+               </tr>
+               </tbody>
+             </table> 
+        </fieldset>
+        </div>
+        <h1>Fig(2) : Illustration of Listing pokemon users page</h1>
+        </center>
+</body>
+</html>
